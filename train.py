@@ -27,15 +27,15 @@ class LinearRegression(LinearRegressionProtocol):
     """
 
     def __init__(
-            self: Self,
-            theta0: float = 0.0,
-            theta1: float = 0.0,
-            min_km: int = 0,
-            max_km: int = 0,
-            min_price: int = 0,
-            max_price: int = 0,
-            learning_rate: float = 0.01,
-            iterations: int = 100000,
+        self: Self,
+        theta0: float = 0.0,
+        theta1: float = 0.0,
+        min_km: int = 0,
+        max_km: int = 0,
+        min_price: int = 0,
+        max_price: int = 0,
+        learning_rate: float = 0.01,
+        iterations: int = 100000,
     ):
         self.theta0: float = theta0
         self.theta1: float = theta1
